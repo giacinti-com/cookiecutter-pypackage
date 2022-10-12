@@ -24,9 +24,6 @@ classifiers=[
 {%- endif %}
     'Natural Language :: English',
     'Programming Language :: Python :: 3',
-    'Programming Language :: Python :: 3.6',
-    'Programming Language :: Python :: 3.7',
-    'Programming Language :: Python :: 3.8',
     'Programming Language :: Python :: 3.9',
 ]
 packages = [
@@ -35,7 +32,7 @@ packages = [
 ]
 
 [tool.poetry.dependencies]
-python = ">=3.6.2,<4.0"
+python = ">=3.9,<4.0"
 {%- if cookiecutter.command_line_interface|lower == 'click' %}
 click = "8.0.1"
 {%- endif %}
@@ -95,7 +92,7 @@ doc = [
 [tool.black]
 line-length = 120
 skip-string-normalization = true
-target-version = ['py36', 'py37', 'py38']
+target-version = ['py39']
 include = '\.pyi?$'
 exclude = '''
 /(
