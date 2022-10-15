@@ -59,7 +59,7 @@ Ready to contribute? Here's how to set up `{{ cookiecutter.project_slug }}` for 
 4. Install dependencies and start your virtualenv:
 
     ```
-    $ poetry install -E test -E doc -E dev
+    $ poetry install
     ```
 
 5. Create a branch for local development:
@@ -102,7 +102,7 @@ Before you submit a pull request, check that it meets these guidelines:
 ## Tips
 
 ```
-$ poetry run pytest tests/test_{{ cookiecutter.pkg_name }}.py
+$ poetry run pytest
 ```
 
 To run a subset of tests.
