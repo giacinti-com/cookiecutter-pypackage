@@ -1,14 +1,15 @@
 {
-  "full_name": "Philippe Giacinti",
-  "email": "philippe@giacinti.com",
-  "github_username": "giacinti",
   "project_name": "Python Boilerplate",
   "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
   "pkg_name": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
   "project_short_description": "Skeleton project created by Cookiecutter PyPackage",
   "version": "0.1.0",
+  "full_name": "Philippe Giacinti",
+  "email": "philippe@giacinti.com",
+  "github_username": "giacinti",
   "command_line_interface": ["Click", "No command-line interface"],
   "create_author_file": "y",
   "open_source_license": ["MIT", "BSD-3-Clause", "ISC", "Apache-2.0", "GPL-3.0-only", "Not open source"],
-  "install_precommit_hooks": "y"
+  "install_precommit_hooks": "y",
+  "_copy_without_render": [".github/workflows/*.yml"]
 }
