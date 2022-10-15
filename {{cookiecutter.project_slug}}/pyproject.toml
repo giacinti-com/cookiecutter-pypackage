@@ -27,7 +27,7 @@ classifiers=[
     'Programming Language :: Python :: 3.9',
 ]
 packages = [
-    { include = "{{ cookiecutter.pkg_name }}" },
+    { include = "{{ cookiecutter.pkg_dir }}" },
     { include = "tests", format = "sdist" },
 ]
 

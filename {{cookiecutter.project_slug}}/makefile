@@ -1,4 +1,4 @@
-sources = {{ cookiecutter.pkg_name }}
+sources = {{ cookiecutter.pkg_dir }}
 
 .PHONY: test format lint unittest coverage pre-commit clean
 test: format lint unittest
